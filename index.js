@@ -4,7 +4,6 @@ const prevBtn = document.querySelector('.prev')
 const nextBtn = document.querySelector('.next')
 const element = document.querySelector('.slider-img')
 const slidesToMove = 1
-// let rowSizes = sliderRow.getBoundingClientRect()
 let imgSizes = element.getBoundingClientRect()
 let offset = 0
 let sliderWrapperWidth = sliderWrapper.clientWidth
